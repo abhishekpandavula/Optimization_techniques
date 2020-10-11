@@ -6,7 +6,7 @@ def delta(a):
         return 0.0001
 # Here is the function given in the question
 def f(x):
-    return (x**2)+(54/x)
+    return np.sin(2*x) + x**2 + 21
 def f_dash(x):
     return (f(x+delta(x))-f(x-delta(x)))/(2*delta(x))
 print("Enter the intervel \n")
@@ -21,6 +21,7 @@ e = 0.5
 print(f"f'({a}) = (f({a}+{delta(a)}) - f({a}-{delta(a)})) / 2({delta(a)}) = {f_dash(a)}")
 print(f"f'({b}) = (f({b}+{delta(b)}) - f({b}-{delta(b)})) / 2({delta(b)}) = {f_dash(b)}\n")
 i=1
+
 if (f_dash(a) < 0 and f_dash(b) > 0) or (f_dash(a) > 0 and f_dash(b) < 0):
     z = b -((b-a)/(f_dash(b)-f_dash(a)))*f_dash(b)
 
