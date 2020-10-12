@@ -1,7 +1,8 @@
 import numpy as np
+#######################################
 def f(x):
     return x**4 - 5*(x**3) + 2*np.exp(x) - 5*np.cos(3*x)
-
+#######################################
 
 print("Enter a ")
 a = float(input())
@@ -10,6 +11,8 @@ b = float(input())
 
 #choose termination parameter
 e = 0.4
+#################################
+
 L = b-a
 
 xm = (a + b)/2

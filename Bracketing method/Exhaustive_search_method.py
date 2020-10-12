@@ -1,8 +1,11 @@
 import numpy as np
+
+#################################
 def f(x):
     #here we have to enter the question
-    return 10-(x**(1/2))*np.sin(x)
-    
+    return (x**2)+(54/x)
+####################################
+
 condition = input("Enter 'n' or 'l'")
 if condition == 'n':
     # n = number of intervals into which the given interval is divided

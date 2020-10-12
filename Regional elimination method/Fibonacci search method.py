@@ -1,6 +1,9 @@
 import numpy as np
+
+#####################################
 def f(x):
     return -3*(x**3)*np.sin(2*x)+4*x*np.cos(3*x)+2*x
+########################################
 
 print("Enter the interval")
 print("Enter Lower Boundary a = ")
