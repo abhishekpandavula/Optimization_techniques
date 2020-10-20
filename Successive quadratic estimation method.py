@@ -16,7 +16,7 @@ e = 0.01
 ############################
 # Here is the function given in the question
 def f(x):
-    return (x**5)-5*(x**3)-20*x+5
+    return 648*(x**(-2))+x**3
 
 ##############################
 f1 = f(x1)

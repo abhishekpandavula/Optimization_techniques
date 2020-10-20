@@ -1,18 +1,18 @@
 import numpy as np
 def f(x):
     #here we have to enter the question
-    return 10+3*np.exp(0.5*(x**2)-0.2*x+0.02)
+    return np.cos(x**2)+3*(x**2)+62
 
 
 def x(k):
     if k == 0:
         #####################
-        x_0= -0.5
+        x_0= 1
         #######################
         return x_0
     else:
         #####################
-        result = -0.5
+        result = 1
         #######################
         result = result + (2**k)*v
         return result

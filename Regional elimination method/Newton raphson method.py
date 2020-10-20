@@ -8,7 +8,7 @@ def delta(a):
 ######################################
 # Here is the function given in the question
 def f(x):
-    return (0.5)*(x**3)-1.75*(x**2)+2*x-9
+    return np.cos(5*x)+(x**2)
 
 #######################################
 def f_dash(x):
@@ -19,7 +19,7 @@ def f_ddash(x):
 
 ####################################
 # first derivative value
-print("f dash(x) = ", f_dash(1.5992))
+print("f dash(x) = ", f_dash(19.24))
 
 # Second derivative value
-print("f double dash(x) = ",f_ddash(2))
+print("f double dash(x) = ",f_ddash(19.24))

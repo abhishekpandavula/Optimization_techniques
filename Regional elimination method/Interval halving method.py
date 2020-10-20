@@ -1,7 +1,7 @@
 import numpy as np
 #######################################
 def f(x):
-    return x**4 - 5*(x**3) + 2*np.exp(x) - 5*np.cos(3*x)
+    return 3*x*4(np.sin(2*x))-4*(x**3)*np.cos(5*x)
 #######################################
 
 print("Enter a ")
